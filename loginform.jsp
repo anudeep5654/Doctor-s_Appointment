@@ -4,14 +4,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Login Page</title>
+<title>Insert title here</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-	
 </head>
-<body style="background-color:rgba(0,128,128,0.6)">
-
+<body>
+<body style="background-color:rgba(128,128,128,0.6)">
+<img src="doc.jpg">
 <div class="container">
 	<div class="col-lg-4"></div>
 	<div class="col-lg-4" style="margin-left:370px">
