@@ -22,7 +22,7 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
    <ul class="nav nav-pills">
   <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
+    <a class="nav-link active" href="#">Search</a>
   </li>
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
