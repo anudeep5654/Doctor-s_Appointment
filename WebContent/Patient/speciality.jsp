@@ -6,6 +6,7 @@
  <title>BookMyDoc</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style1.css" type="text/css">
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -36,7 +37,8 @@
   </div>
 </nav>
 
-<div class="row" style="margin:130px 0px 0px 160px">
+<div class="row1">
+<div class="row">
   <div class="col-sm-2">
   	<a href="reason.jsp"><img src="img/dentist.jpg" alt="dentist" width="50px" height="50px"></a>
   	<p>Dentist</p>
@@ -61,9 +63,10 @@
   	<a href="reason.jsp"><img src="img/orthopedic.png" alt="dentist" width="50px" height="50px"></a>
   	<p>Orthopedic</p>
   </div>
-</div><br><br>
+</div></div><br><br>
 
-<div class="row" style="margin:0px 0px 0px 500px">
+<div class="row2">
+<div class="row">
   <div class="col-sm-2">
   	<a href="reason.jsp"><img src="img/skin.png" alt="dentist" width="50px" height="50px"></a>
   	<p>Skin Specialist</p>
@@ -76,22 +79,7 @@
   	<a href="reason.jsp"><img src="img/ophthamologist.png" alt="dentist" width="50px" height="50px"></a>
   	<p>Ophthalmologist</p>
   </div>
- </div>
-
-<!--  
-<div class="specialist" style="margin:170px 0px 0px 260px">
-<a href="reason.jsp"><button type="button" class="btn btn-primary">Dentist</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="reason.jsp"><button type="button" class="btn btn-primary">Cardiologist</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="reason.jsp"><button type="button" class="btn btn-primary">Urologist</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="reason.jsp"><button type="button" class="btn btn-primary">Gynaecologist</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="reason.jsp"><button type="button" class="btn btn-primary">Dermatologist</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="reason.jsp"><button type="button" class="btn btn-primary">Orthopedic</button></a>&nbsp;&nbsp;</div><br><br><br>
-
-<div class="special" style="margin:0px 0px 0px 430px">
-<a href="reason.jsp"><button type="button" class="btn btn-primary">Skin Specialist</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="reason.jsp"><button type="button" class="btn btn-primary">Psychiatrist</button></a>&nbsp;&nbsp;&nbsp;
-<a href="reason.jsp"><button type="button" class="btn btn-primary">Ophthalmologist</button></a>
-</div>-->
+ </div></div>
 
 </body>
 </html>
