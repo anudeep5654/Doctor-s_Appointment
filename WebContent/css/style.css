@@ -1,0 +1,10 @@
+@charset "ISO-8859-1";
+body{
+	background:white;
+}
+.color_yellow{
+	color:#f1cb08;
+}
+.color_yellow:hover{
+	color:#c3ad39;
+}
