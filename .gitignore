@@ -28,3 +28,7 @@ RemoteSystemsTempFiles/.project
 .classpath
 .classpath
 .classpath
+.classpath
+.settings/org.eclipse.wst.common.project.facet.core.xml
+.settings/org.eclipse.wst.common.project.facet.core.xml
+.settings/org.eclipse.wst.common.project.facet.core.xml
