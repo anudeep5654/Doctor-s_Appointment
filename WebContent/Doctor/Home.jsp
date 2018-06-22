@@ -15,7 +15,7 @@
 </head>
 <body>
 <jsp:include page="../template/header.jsp"></jsp:include>
-<h1 class="display-4">Hello Doctor</h1>
+<h1 class="display-6 mt-5 ml-5">Hello Doctor</h1>
 <ul class="nav nav-tabs" id="myTab" role="tablist" style="margin-top:50px">
   <li class="nav-item">
     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><h5>Manage Appointment</h5></a>
@@ -29,7 +29,7 @@
 </ul>
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-  <div class="container">
+  <div class="container mt-5">
   <div class="row">
   <img src="docimg/p1.jpg" width="100px" height="100px" style="margin:0"/>
     <div class="col-sm">
@@ -47,7 +47,7 @@
   </div>
   <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
   <div class="container">
-  <div class="row" style="font-weight:bold">
+  <div class="row mt-5" style="font-weight:bold">
     <div class="col-sm">
       Name of Patient
     </div>
@@ -73,7 +73,7 @@
   </div>
 </div>
   </div>
-  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+  <div class="tab-pane fade mt-5 ml-5" id="contact" role="tabpanel" aria-labelledby="contact-tab">
   <form>
   <div class="form-group row">
     <label for="inputEmail3" class="col-sm-2 col-form-label">First Name</label>
