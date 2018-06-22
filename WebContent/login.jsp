@@ -12,10 +12,10 @@
  
  <div class="container">
   <div class="row">
-    <div class="col-sm"  style="padding:150px 0px 0px 0px">
+    <div class="col-sm docimg pad-150">
    <img src="img/image.png" alt="no img"/>
     </div>
-    <div class="col-sm"  style="padding:150px 0px 0px 0px">
+    <div class="col-sm pad-150">
       <form class="form-signin">
       <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
       <h1 class="h3 mb-3 font-weight-normal">Please Login Here</h1>

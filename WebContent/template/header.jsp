@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 
     <link href="${pageContext.request.contextPath}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/bootstrap-reboot.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link href="${pageContext.request.contextPath}/css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -32,26 +35,24 @@
     <a class="nav-link color_yellow" href="#">Blog</a>
   </li>
    <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle color_yellow" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search for</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown05">
-              <a class="dropdown-item" href="#">Dentist</a>
-              <a class="dropdown-item" href="#">Cardiologist</a>
-              <a class="dropdown-item" href="#">Gynaecologist</a>
-              <a class="dropdown-item" href="#">Urologist</a>
-              <a class="dropdown-item" href="#">Dermatologist</a>
-              <a class="dropdown-item" href="#">Orthopedic</a>
-              <a class="dropdown-item" href="#">Skin Specialist</a>
-              <a class="dropdown-item" href="#">Psychiatrist</a>
-              <a class="dropdown-item" href="#">Ophthalmologist</a>
-            </div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Search</button>
+  </form>
+</nav>
           </li>
 </ul>
          
         </div>
       </div>
     </nav>
-    
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 <script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/mainjs.js"></script>
 </body>
 </html>

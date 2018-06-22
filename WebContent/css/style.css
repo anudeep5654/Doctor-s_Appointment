@@ -5,21 +5,62 @@ body{
 .color_yellow{
 	color:#f1cb08;
 }
+#admin-menu{
+	display:none;
+}
 .color_yellow:hover{
 	color:#c3ad39;
 }
 
-/*@media only screen and (min-width: 1001 == 1004px) {
+@media only screen and (min-width: 1001px) {
     .ym{
 	margin:150px 0px 0px 100px;}
+.pad-150{
+padding:150px 0px 0px 0px;
 }
-@media only screen and (max-width: 1000 == 1004px) {
+.admin-menu-toggle{
+	display:none;
+}
+}
+@media only screen and (max-width: 1000px) {
     .ym{
 	margin:10px 0px 0px 0px;}
+	.pad-150{
+padding:150px 0px 0px 0px;
 }
-@media only screen and (max-width: 600 == 1004px) {
+.admin-menu-toggle{
+	display:none;
+}
+}
+@media only screen and (max-width: 766px) {
+.admin-menu-toggle{
+	display:block;
+}
+#admin-menu{
+	display:none;
+}
+}
+@media only screen and (max-width: 600px) {
     .ym{
 	margin:10px 0px 0px 150px;
 }
-}*/
+.admin-menu-toggle{
+	display:block;
+}
+#admin-menu{
+	display:none;
+}
+.pad-150{
+padding:50px 0px 0px 0px;
+}
+.docimg{
+	display:none;
+}
+.doc-hide{
+	display:none;
+}
+#admin-menu{
+	display:none;
+}
+}
 
