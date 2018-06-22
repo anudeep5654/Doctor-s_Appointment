@@ -15,50 +15,40 @@
 <title>BookMyDoc</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg " style="background-color:rgba(19,95,103,0.9);">
-  <a class="navbar-brand" href="#" style="color:white;">BookMyDoc</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#" style="color:white;">Book Appointments</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" style="color:white;">List Appointments</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" style="color:white;">Update Profile</a>
-      </li>
-    </ul>
+<jsp:include page="../template/header.jsp"></jsp:include>
+
+<div class="container mt-5">
+<h1 style="font-weight:bold;font-size:35px;">List of Doctors</h1>
+</div><br><br>
+
+<div class="container">
+  <div class="row">
+   		<div class="col-sm-3">
+     		<img src="img/dr1.jpg"  alt="doc1" width="150px" height="150px">
+   		</div>
+    	<div class="col-sm-3">
+      		<p style="font-weight:bold;font-size:20px;color:rgba(0,0,255,0.7)">Dr.D.VenkatReddy</p>
+			<a href="book.jsp"><button style="width:90px;margin-left:300px" type="button" class="btn btn-primary">Book</button></a><br>
+			<p style="font-size:16px;margin:0">14 years of experience</p>
+			<p style="font-size:16px;margin:0">Dentist</p>
+			<p style="font-size:16px">Hyderabad</p>
+   		 </div>
   </div>
-</nav>
-
-<h1 style="font-weight:bold;font-size:35px;margin:70px 0px 0px 60px;">List of Doctors</h1>
-
-
-<div class="dr1img" style="float:left;margin:40px 0px 0px 200px;">
-	<img src="img/dr1.jpg" alt="doc1" width="150px" height="150px">
-</div>
-<div class="dr1desc" style="float:right;width:600px;border:1px solid black;border:none;margin:40px 340px 0px 0px">
-		<p style="font-weight:bold;font-size:20px;color:rgba(0,0,255,0.7)">Dr.D.VenkatReddy</p>
-		<a href="#"><button style="width:90px;margin-left:410px" type="button" class="btn btn-primary">Book</button></a><br>
-		<p style="font-size:16px;margin:0">14 years of experience</p>
-		<p style="font-size:16px;margin:0">Dentist</p>
-		<p style="font-size:16px">Hyderabad</p>	
-</div>
-
-
-<div class="dr2img" style="float:left;margin-top:50px;margin-left:200px">
-	<img src="img/dr2.png" alt="doc1" width="150px" height="150px">
-</div>
-<div class="dr2desc" style="float:right;width:600px;border:1px solid black;border:none;margin:30px 340px 0px 0px">
-		<p style="font-weight:bold;font-size:20px;color:rgba(0,0,255,0.7)">Dr.D.SaiKrishna</p>
-		<a href="#"><button style="width:90px;margin-left:410px" type="button" class="btn btn-primary">Book</button></a><br>
-		<p style="font-size:16px;margin:0">26 years of experience</p>
-		<p style="font-size:16px;margin:0">Dentist</p>
-		<p style="font-size:16px">Hyderabad</p>	
+</div><br><br>
+  
+<div class="container">  
+    <div class="row">
+    	<div class="col-sm-3">
+    	 	<img src="img/dr2.png"  alt="doc1" width="150px" height="150px">
+    	</div>
+    	<div class="col-sm-3">
+      		<p style="font-weight:bold;font-size:20px;color:rgba(0,0,255,0.7)">Dr.D.SaiKrishna</p>
+			<a href="book.jsp"><button style="width:90px;margin-left:300px" type="button" class="btn btn-primary">Book</button></a><br>
+			<p style="font-size:16px;margin:0">26 years of experience</p>
+			<p style="font-size:16px;margin:0">Dentist</p>
+			<p style="font-size:16px">Hyderabad</p>
+    	</div>
+  </div> 
 </div>
 
 </body>

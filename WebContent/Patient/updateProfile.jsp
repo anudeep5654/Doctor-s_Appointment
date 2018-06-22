@@ -26,44 +26,46 @@
         <a class="nav-link" href="#" style="color:white;">List Appointments</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" style="color:white;">Update Profile</a>
+        <a class="nav-link" href="updateProfile.jsp" style="color:white;">Update Profile</a>
       </li>
     </ul>
   </div>
 </nav>
 
-
+<div class="container mt-5 ml-5">
 <h1 style="font-size:28px;">Update Profile</h1>
+</div>
 
+<div class="container mt-5 ml-5">
 <form>
   <div class="form-group row">
-    <label for="inputEmail3" class="col-sm-2 col-form-label">First Name</label>
+    <label for="firstName" class="col-sm-2 col-form-label">First Name</label>
     <div class="col-sm-3">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="First Name">
+      <input type="text" class="form-control" id="firstName" placeholder="First Name">
     </div>
   </div>
   <div class="form-group row">
-    <label for="inputEmail3" class="col-sm-2 col-form-label">Last Name</label>
+    <label for="lastName" class="col-sm-2 col-form-label">Last Name</label>
     <div class="col-sm-3">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Last Name">
+      <input type="text" class="form-control" id="lastName" placeholder="Last Name">
     </div>
   </div>
   <div class="form-group row">
-    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
     <div class="col-sm-3">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
     </div>
   </div>
   <div class="form-group row">
-    <label for="inputEmail3" class="col-sm-2 col-form-label">Phone No.</label>
+    <label for="phoneNo" class="col-sm-2 col-form-label">Phone No.</label>
     <div class="col-sm-3">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Phone Number">
+      <input type="text" class="form-control" id="phoneNo" placeholder="Phone Number">
     </div>
   </div>
   <div class="form-group row">
-    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+    <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
     <div class="col-sm-3">
-      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+      <input type="password" class="form-control" id="inputPassword" placeholder="Password">
     </div>
   </div>
   <div class="form-group row">
@@ -71,6 +73,7 @@
       <button type="submit" class="btn btn-primary">Update</button>
     </div>
   </div>
+ </div>
 </form>
 </body>
 </html>

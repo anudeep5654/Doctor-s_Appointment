@@ -15,27 +15,10 @@
 <title>BookMyDoc</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg " style="background-color:rgba(19,95,103,0.9);">
-  <a class="navbar-brand" href="#" style="color:white;">BookMyDoc</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#" style="color:white;">Book Appointments</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" style="color:white;">List Appointments</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" style="color:white;">Update Profile</a>
-      </li>
-    </ul>
-  </div>
-</nav><br><br>
+<jsp:include page="../template/header.jsp"></jsp:include>
 
-<span style="font-size:20px;margin-left:360px">Reason:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="mt-5 mx-auto" style="width: 200px;">
+Reason:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <select class="selectpicker">
   <option value="choose">--Choose option--</option>
 	<option value="Teeth ache">TeethAche</option>
@@ -45,7 +28,7 @@
 	<option value="StomachAche">StomachAche</option>
 </select><br><br>
 
-<span style="font-size:20px;margin-left:360px">Locality:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Locality:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <select class="selectpicker">
   <option value="choose">--Choose option--</option>
 	<option value="Hyderabad">Hyderabad</option>
@@ -55,8 +38,8 @@
 	<option value="Gujarat">Gujarat</option>
 </select><br><br>
 
-<a href="listofdoctors.jsp"><button style="margin-left:360px;" type="button" class="btn btn-primary">Search</button></a>
-
+<a href="listofdoctors.jsp"><button type="button" class="btn btn-primary">Search</button></a>
+</div>
 
 </body>
 </html>
