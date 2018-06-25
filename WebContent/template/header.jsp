@@ -23,22 +23,22 @@
         <div class="collapse navbar-collapse" id="navbarsExample07">
           <ul class="nav justify-content-end">
   <li class="nav-item">
-    <a class="nav-link color_yellow" href="#">Home</a>
+    <a class="nav-link color_yellow" href="#">Book Appointment</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link color_yellow" href="#">About Us</a>
+    <a class="nav-link color_yellow" href="listAppointments.jsp">List of Appointments</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link color_yellow" href="#">Contact Us</a>
+    <a class="nav-link color_yellow" href="updateProfile.jsp">Update Profile</a>
   </li>
-  <li class="nav-item">
+  <!--  <li class="nav-item">
     <a class="nav-link color_yellow" href="#">Blog</a>
   </li>
    <li class="nav-item dropdown">
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
   <form class="form-inline" action="/action_page.php">
     <input class="form-control mr-sm-2" type="text" placeholder="Search">
-    <button class="btn btn-success" type="submit">Search</button>
+    <button class="btn btn-success" type="submit">Search</button>-->
   </form>
 </nav>
           </li>
