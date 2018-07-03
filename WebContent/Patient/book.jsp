@@ -25,6 +25,7 @@
 <link rel="stylesheet" href="https://formden.com/static/cdn/font-awesome/4.4.0/css/font-awesome.min.css" />
 <style>.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{font-family: Arial, Helvetica, sans-serif; color: black}.bootstrap-iso form button, .bootstrap-iso form button:hover{color: white !important;} .asteriskField{color: red;}</style>
 
+<form action="${pageContext.request.contextPath}/book" method="post">
 <div class="bootstrap-iso">
  <div class="container-fluid">
   <div class="row">
@@ -54,7 +55,7 @@
         *
        </span>
       </label>
-<select class="selectpicker mt-2 ml-2">
+<select name="city" class="selectpicker mt-2 ml-2">
   <option value="choose">--Choose time--</option>
 	<option value="Hyderabad">9:00 AM</option>
 	<option value="Kerala">12:00 PM</option>
@@ -71,7 +72,7 @@
   </div>
  </div>
 </div>
-
+</form>
 
 <!-- Extra JavaScript/CSS added manually in "Settings" tab -->
 <!-- Include jQuery -->

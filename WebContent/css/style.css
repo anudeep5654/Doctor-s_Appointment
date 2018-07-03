@@ -1,66 +1,27 @@
 @charset "ISO-8859-1";
-body{
-	background:white;
-}
-.color_yellow{
-	color:#f1cb08;
-}
-#admin-menu{
-	display:none;
-}
-.color_yellow:hover{
-	color:#c3ad39;
-}
 
-@media only screen and (min-width: 1001px) {
-    .ym{
-	margin:150px 0px 0px 100px;}
-.pad-150{
-padding:150px 0px 0px 0px;
+.form-control{
+	margin-bottom: 10px; 
 }
-.admin-menu-toggle{
-	display:none;
+.sign{
+	margin:80px 0px 0px 450px;
 }
+.heading{
+	margin:0px;
+	background-color:rgba(100,100,255,0.7);
+	color:white;
+	font-size:20px;
+	height:30px;
 }
-@media only screen and (max-width: 1000px) {
-    .ym{
-	margin:10px 0px 0px 0px;}
-	.pad-150{
-padding:150px 0px 0px 0px;
+.profile-img{
+	margin:20px 0px 0px 130px;
 }
-.admin-menu-toggle{
-	display:none;
+.input,.button{
+	width:250px;
+	height:30px;
+	margin:20px 0px 0px 50px;
 }
-}
-@media only screen and (max-width: 766px) {
-.admin-menu-toggle{
-	display:block;
-}
-#admin-menu{
-	display:none;
-}
-}
-@media only screen and (max-width: 600px) {
-    .ym{
-	margin:10px 0px 0px 150px;
-}
-.admin-menu-toggle{
-	display:block;
-}
-#admin-menu{
-	display:none;
-}
-.pad-150{
-padding:50px 0px 0px 0px;
-}
-.docimg{
-	display:none;
-}
-.doc-hide{
-	display:none;
-}
-#admin-menu{
-	display:none;
-}
+.input ::placeholder{
+	font-size:20px;
 }
 

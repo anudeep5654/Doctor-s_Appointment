@@ -21,9 +21,9 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarsExample07">
-          <!--  <ul class="nav justify-content-end">
+           <ul class="nav justify-content-end">
   <li class="nav-item">
-    <a class="nav-link color_yellow" href="#">Book Appointment</a>
+    <a class="nav-link color_yellow" href="Patient/speciality.jsp">Book Appointment</a>
   </li>
   <li class="nav-item">
     <a class="nav-link color_yellow" href="listAppointments.jsp">List of Appointments</a>

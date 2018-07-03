@@ -15,30 +15,27 @@
 <title>BookMyDoc</title>
 </head>
 <body>
-<jsp:include page="../template/header.jsp"></jsp:include>
+<jsp:include page="../template/menu.jsp"></jsp:include>
 
-<div class="mt-5 mx-auto" style="width: 200px;">
-Reason:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<select class="selectpicker">
-  <option value="choose">--Choose option--</option>
-	<option value="Teeth ache">TeethAche</option>
-	<option value="Heart Attack">Heart Attack</option>
-	<option value="Intestine Digestion">Intestine Digestion</option>
-	<option value="Cold">Cold</option>
-	<option value="StomachAche">StomachAche</option>
-</select><br><br>
-
-Locality:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<select class="selectpicker">
-  <option value="choose">--Choose option--</option>
-	<option value="Hyderabad">Hyderabad</option>
-	<option value="Kerala">Kerala</option>
-	<option value="Karnataka">Karnataka</option>
-	<option value="TamilNadu">TamilNadu</option>
-	<option value="Gujarat">Gujarat</option>
-</select><br><br>
-
-<a href="listofdoctors.jsp"><button type="button" class="btn btn-primary">Search</button></a>
+<div class="container sign">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 well well-lg">
+            
+            <form action="${pageContext.request.contextPath}/dentist" method="post" class="form" role="form">
+            <div class="row">
+                
+                    <input class="form-control" name="reason" placeholder="Reason" type="text"
+                        required autofocus />
+                
+                    <input class="form-control" name="locality" placeholder="Locality" type="text" required />
+                
+            </div><br><br>
+           
+            <button class="btn btn-primary btn-block" type="submit">
+                Search Doctors</button>
+            </form>
+        </div>
+    </div>
 </div>
 
 </body>
