@@ -24,7 +24,7 @@
         <div class="col-sm-6 col-md-4 col-md-offset-4">
             <h1 class="text-center login-title">Login here</h1>
             <div class="account-wall">
-                <img class="profile-img" src="images/profile.png" alt="img" width="100px" height="100px">
+                <img class="profile-img" src="../images/profile.png" alt="img" width="100px" height="100px">
                     <br><br>
                 <form class="form-signin" action="${pageContext.request.contextPath}/loginPat" method="post">
                 <input type="text" class="form-control input" name="uname" placeholder="User Name" required autofocus>

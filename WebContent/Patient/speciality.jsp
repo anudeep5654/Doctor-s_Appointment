@@ -20,6 +20,10 @@
 
 <div class="row">
   <div class="col-sm-2">
+  	<a href="Patient/reason.jsp"><img src="images/general.jpg" alt="general" width="50px" height="50px"></a>
+  	<p>General Physician</p>
+  </div>
+  <div class="col-sm-2">
   	<a href="Patient/reason.jsp"><img src="images/dentist.jpg" alt="dentist" width="50px" height="50px"></a>
   	<p>Dentist</p>
   </div>
@@ -27,38 +31,17 @@
   	<a href="Patient/reason.jsp"><img src="images/cardiologist.jpg" alt="dentist" width="50px" height="50px"></a>
   	<p>Cardiologist</p>
   </div>
-  <div class="col-sm-2">
-  	<a href="Patient/reason.jsp"><img src="images/urologist.png" alt="dentist" width="50px" height="50px"></a>
-  	<p>Urologist</p>
-  </div>
+  
   <div class="col-sm-2">
   	<a href="Patient/reason.jsp"><img src="images/gynaecologist.jpg" alt="dentist" width="50px" height="50px"></a>
   	<p>Gynaecologist</p>
   </div>
-  <div class="col-sm-2">
-	<a href="Patient/reason.jsp"><img src="images/dermatologist.png" alt="dentist" width="50px" height="50px"></a>
-  	<p>Dermatologist</p>
-  </div>
+  
   <div class="col-sm-2">
   	<a href="Patient/reason.jsp"><img src="images/orthopedic.png" alt="dentist" width="50px" height="50px"></a>
   	<p>Orthopedic</p>
   </div>
 </div>
-
-<div class="row">
-  <div class="col-sm-2">
-  	<a href="Patient/reason.jsp"><img src="images/skin.png" alt="dentist" width="50px" height="50px"></a>
-  	<p>Skin Specialist</p>
-  </div>
-  <div class="col-sm-2">
-  	<a href="Patient/reason.jsp"><img src="images/psychiatrist.jpg" alt="dentist" width="50px" height="50px"></a>
-  	<p>Psychiatrist</p>
-  </div>
-  <div class="col-sm-2">
-  	<a href="Patient/reason.jsp"><img src="images/ophthamologist.png" alt="dentist" width="50px" height="50px"></a>
-  	<p>Ophthalmologist</p>
-  </div>
- </div>
 </div>
 
 </body>
